@@ -33,12 +33,9 @@ var x;
 var link;
 
 document.addEventListener('keypress', function(event) {
-  //if user press 'v' key, then open links in new tab in background
   if (event.which == 118) {
-
     x = document.getElementsByClassName('selectedEntry');
-    //if no feed item selected, exit
-    if (x == null){
+    if (x == null) {
       return;
     }
     link = x[0].getAttribute('data-alternate-link');
