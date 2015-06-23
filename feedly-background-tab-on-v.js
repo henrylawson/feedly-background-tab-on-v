@@ -4,7 +4,7 @@
 // @icon            https://github.com/henrylawson/feedly-background-tab-on-v/raw/master/feedly-background-tab-on-v.jpg
 //
 // @author          Henry Lawson
-// @namespace       https://github.com/henrylawson
+// @namespace       https://github.com/henrylawson/feedly-background-tab-on-v
 // @downloadURL     https://github.com/henrylawson/feedly-background-tab-on-v/raw/master/feedly-background-tab-on-v.js
 //
 // @match           https://feedly.com/*
