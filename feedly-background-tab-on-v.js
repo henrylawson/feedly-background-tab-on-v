@@ -1,17 +1,17 @@
 // ==UserScript==
-// @name         	Feedly Background Tab on V
+// @name          Feedly Background Tab on V
 // @description   A simple userscript to background tabs on v
 // @icon          https://github.com/henrylawson/feedly-highlight-np/raw/master/feedly-np-highlight.user.jpg
 //
-// @author				Henry Lawson
+// @author        Henry Lawson
 // @namespace     https://github.com/henrylawson
-// @downloadURL		https://github.com/henrylawson/feedly-background-tab-on-v/raw/master/feedly-background-tab-on-v.js
+// @downloadURL   https://github.com/henrylawson/feedly-background-tab-on-v/raw/master/feedly-background-tab-on-v.js
 //
-// @match 				https://feedly.com/*
-// @match 				http://feedly.com/*
+// @match         https://feedly.com/*
+// @match         http://feedly.com/*
 //
 // @version       1.0
-// @updateURL			https://github.com/henrylawson/feedly-background-tab-on-v/raw/master/feedly-background-tab-on-v.js
+// @updateURL     https://github.com/henrylawson/feedly-background-tab-on-v/raw/master/feedly-background-tab-on-v.js
 // ==/UserScript==
 
 /**
