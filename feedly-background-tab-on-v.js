@@ -47,4 +47,3 @@ document.addEventListener('keypress', function(event) {
     GM_openInTab(link, true);
   }
 }, true);
-
