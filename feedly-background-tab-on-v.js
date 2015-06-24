@@ -12,6 +12,7 @@
 //
 // @version         1.0
 // @updateURL       https://github.com/henrylawson/feedly-background-tab-on-v/raw/master/feedly-background-tab-on-v.user.js
+// @grant           GM_openInTab
 // ==/UserScript==
 
 /**
@@ -33,14 +34,15 @@ var x;
 var link;
 
 document.addEventListener('keypress', function(event) {
-  if (event.which == 118) {
+  var vKey = 118;
+  if (event.which == vKey) {
     x = document.getElementsByClassName('selectedEntry');
-    if (x == null) {
+    if (x == null){
       return;
     }
     link = x[0].getAttribute('data-alternate-link');
     event.stopPropagation();
     event.preventDefault();
-    GM_openInTab(link, true);
+    GM_openInTab(link);
   }
 }, true);
