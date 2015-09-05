@@ -43,6 +43,6 @@ document.addEventListener('keypress', function(event) {
     link = x[0].getAttribute('data-alternate-link');
     event.stopPropagation();
     event.preventDefault();
-    GM_openInTab(link);
+    GM_openInTab(link, { active: false });
   }
 }, true);
